@@ -1,10 +1,8 @@
-# babySitter 
+# bestters 
 The best site to choose a nanny for your child 
 
 ## What can you do in babySitter?
-★ Keep up with any upcoming astronomical events
-★ Have one calendar for both astronomical and personal events
-★ Enjoy visiting the planetarium
-★ Share pictures of the sky with the community
-★ Take an astronomical quiz to test your knowledge
+★  When you sign up as a parent: add your children, Post job request,View baby sitters offer list, View babysitter profile, Contact sitter for interview, Rate babysitter.
+
+★ When you sign up as a babysitter: View job request list, Send offer, View offers status (Accepted/ rejected/ Pending).
 
