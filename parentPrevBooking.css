@@ -1,0 +1,109 @@
+body{
+    background-color:  #FEF9F3;
+    font-family: monospace, monaco;
+
+}
+.AllBookingInfo{
+    background-color: rgba(231, 64, 3, 0.084);
+    border-radius: 40px;
+    margin:150px 150px 50px 350px;
+    width:1000px;
+    height: 530px;
+    position: relative;
+    overflow-x: scroll;
+    font-weight: 400;
+
+}
+
+.AllBookingInfo .titlehead{
+font-size: 32px;
+padding: 10px 0px 0px 40px;
+position: absolute;
+}
+
+.FirstBookingInfo{
+    background-color:  rgba(230, 133, 7, 0.276);
+    width:180px;
+    height: 250px;    /*1*/
+    position: absolute;
+    margin: 120px 110px 110px 90px;
+    /*border: none;*/
+    border-radius: 40px;
+    padding: 10px 50px 50px 20px;
+    font-size: 13px;/*2*/
+ 
+}
+.FirstBookingInfo ul li {
+    padding: 5px;
+    list-style: none;
+}
+.kidInfo {
+    margin-left: -45px;
+}
+.kidInfo p{
+    margin-left: 70px;
+
+}
+.FirstBookingInfo .SitterInfo .profileImg{/*1c*/
+  
+   margin:-25px;
+
+}
+
+.SitterInfo{
+border-top: solid 0.4px #b96d10;
+padding-top: 0px;
+width:220px;
+margin-left: -10px; 
+margin-top: -3px;
+
+}
+
+ .SitterInfo img{
+    float: left;
+    position: absolute;
+   margin-left: 5px;
+   margin-top: 10px;
+   margin-bottom: 100px;
+}
+.profileImg:hover,.reviewButton:hover{
+    opacity:0.65;
+   
+}
+
+.reviewButton{
+    font-size: 12.5px;
+    background-color: #FF5A30;
+    height: 35px;
+    width: 130px;
+    margin: 0px 0px 0px 48px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+
+}
+.SecondBookingInfo{
+    background-color:  rgba(230, 133, 7, 0.276);
+    width:180px;
+    height: 250px;
+    position: absolute;
+    margin: 120px 110px 110px 440px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px 50px 20px;
+    font-size: 13px;
+
+
+    
+}
+.SecondBookingInfo ul li {
+    padding: 5px ;
+    list-style: none;
+}
+       
+ul li .ratingStars{
+    margin-top: 0px;
+    margin-left: -5px;
+
+}

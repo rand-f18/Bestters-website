@@ -1,0 +1,167 @@
+body{
+    background-color:  #FEF9F3;
+    color:#00085C;
+    font-family:monospace;
+    
+    }
+    
+    .container{
+        background-color: rgba(231, 64, 3, 0.084);
+        border-radius: 40px;
+        margin:150px 150px 50px 350px;
+        width:900px;
+        height: 530px;
+        position: relative;
+        padding-top:20px;
+        overflow-y: scroll;
+        font-family: monospace;
+        font-weight: 400;
+    
+    }
+    .container th{
+        font-weight: 400;
+    }
+     .maintable{
+        margin: 40px;
+        border-radius: 30px;
+        width:850px;
+        /*height: 400px;*/
+        text-align:center;
+        overflow-x: scroll;
+        table-layout:auto;
+        
+    }
+    .maintable .tableTitle{
+        font-size:32px;
+        position:sticky;
+        width:200px;
+    }
+    
+    
+    .reqeustFromParent{/*box*/
+        background-color:rgba(230, 133, 7, 0.276);
+        margin:20px; 
+        border-radius: 25px;
+        padding:5px;
+        height:205px;
+        width:185px;
+        
+        
+    }
+    .reqeustFromParent .editicon{
+        height:20px; 
+        width:20px;
+        float:right;
+        margin:5px;
+        
+    }
+    .reqeustFromParent .editicon:hover{
+        opacity:0.6;
+    }
+    .reqeustFromParent ul li {
+        
+        list-style: none;
+        
+    }
+    .reqeustFromParent .reqInfo{/*kid data*/
+        margin-top:35px;
+        margin-right:20px;
+        text-align:justify;
+    
+        
+        
+    }
+    .buttonCancel{
+        color: white;
+        border-radius: 10px;
+        background-color: #FF5A30;
+        width:45%;
+        border: none;
+        margin-top:20px;
+    }
+    .buttonCancel:hover{
+        opacity:0.6;
+    }
+    .nestedtable{
+        text-align:left;
+        table-layout:fixed;
+        width:90%;
+        margin:0px;
+        border-style: none;
+        border-width:0px;
+        /*border-collapse:collapse;*/
+        border-radius:10px;
+        padding:2px;
+        
+        
+    }
+    
+     
+    .profilephoto{
+        height:50px;
+        width:40px;
+        /*float:;*/
+        margin: 3px 0px 0px 40px ;
+        
+    }
+    .profilephoto:hover{
+        opacity:0.6;
+    }
+    
+    
+    .nestedtable tr{
+        background-color:#FEF9F3;
+         border-width:10px;
+        /*border-collapse:collapse;*/
+        border-radius:10px;
+        border-spacing:0px;
+        padding:5px;
+    }
+    
+    .buttonAccept{
+        margin:2px 2px 2px 5px;
+        border-radius: 10px;
+        background-color:#FF5A30;
+        border-style:none; 
+        color: white;
+        
+    }
+    .buttonAccept:hover{
+        opacity:0.6;
+    }
+    .buttonReject{
+        margin:2px 2px 2px 5px;
+        border-radius: 10px;
+        background-color:#FF5A30;
+        border-style:none;
+        color: white;
+    }
+    .buttonReject:hover{
+        opacity:0.6;
+    }
+    
+                                         
+    .hourglass{
+        float:left;
+        height:25px; 
+        width:25px;
+        margin: 3px 0px 0px 50px ;
+        border-radius:30px;
+    }
+    
+    .buttonPostNJR{
+        font-size:18px;
+        border-radius: 10px;
+        background-color: #FF5A30;
+        width:30%;
+        height:15%;
+        border: none;
+        margin: 10px;
+        margin-left:40px;
+        color: white;
+    
+    
+    }
+    .buttonPostNJR:hover{
+        opacity:0.6;
+    }

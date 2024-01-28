@@ -1,0 +1,87 @@
+<!--RateNadReview.css-->
+body{
+    background-color:  #FEF9F3;
+    font-family: monospace, monaco;
+
+}
+.ratingArea{
+    background-color: rgba(231, 64, 3, 0.084);
+    border: none;
+    border-radius: 40px;
+    margin:150px 150px 50px 350px;
+    width:1000px;
+    height: 530px;
+    position: relative;
+    /*font-family: monaco;*/
+
+}
+ .titlehead{
+    font-size: 32px;
+    padding: 10px 0px 0px 40px;
+    position: absolute;
+}
+
+.sitterImage{
+    height: 50px;
+    width: 50px;
+padding: 0px 10px 0px 320px;
+}
+.sitterImage p{
+    
+    margin: -60px 500px 500px 120px;
+    height: 50px;
+    width: 200px;
+    
+
+
+}
+.RatingImage{
+
+margin: 270px 300px 100px 390px ;
+opacity: 0.5;
+height: 0px;
+width: 0px;
+border:solid 1px orange
+}
+.RatingImage:hover{
+    opacity: 1;
+    
+}
+textarea{
+    border: none;
+    color: rgb(28, 6, 6);
+    background-color:#FEF9F3;
+    margin: -40px 20px 200px 348px;
+   
+
+}
+.submitButton{
+    font-size: 12.5px;
+    font-weight: 500;
+    background-color: #FF5A30;
+    height: 35px;
+    width: 130px;
+    position:absolute;
+    margin: -180px -480px 50px 365px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+   
+}
+.cancelButton{
+    font-size: 12.5px;
+    font-weight: 500;
+    background-color: #FF5A30;
+    height: 35px;
+    width: 130px;
+    position:absolute;
+    margin: -180px -480px 50px 510px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+
+}
+.cancelButton:hover ,.submitButton:hover{
+    opacity: 0.8;
+
+}

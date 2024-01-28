@@ -1,0 +1,115 @@
+<!--project.css-->
+body{
+    background-color:  #FEF9F3;
+    font-family: monospace, monaco;
+
+}
+/*the large square*/
+.AllBookingInfo{
+    background-color: rgba(231, 64, 3, 0.084);
+    border-radius: 40px;
+    margin:150px 150px 50px 350px;
+    width:1000px;
+    height: 530px;
+    position: relative;
+    overflow-x: scroll;
+    font-weight: 500;
+}
+/*the title */
+.AllBookingInfo .titlehead{
+font-size: 32px;
+padding: 10px 0px 0px 40px;
+position: absolute;
+}
+/*the first small square*/
+.FirstBookingInfo{
+    background-color:  rgba(230, 133, 7, 0.276);
+    width:180px;
+    height: 220px;/*prev 250*/
+    position: absolute;
+    margin: 120px 110px 110px 90px;
+    border-radius: 40px;
+    padding: 10px 50px 50px 20px;
+    font-size: 13px;/*2*/
+}
+
+.FirstBookingInfo ul li {
+    padding: 5px;
+    list-style: none;
+   
+}
+
+.kidInfo {
+    margin-left: -45px;
+   
+}
+
+
+.kidInfo p{
+    margin-left: 70px;
+
+}
+
+
+.SitterInfo{
+border-top: solid 0.4px #b96d10;
+padding-top: 5px;
+width:220px;
+
+}
+.FirstBookingInfo .SitterInfo img{
+    float: left;
+    position: absolute;
+   margin-left: -3px;
+   margin-top: 10px;
+   margin-bottom: 100px;
+}
+.SitterInfo img:hover{
+    opacity:0.65;
+   
+}
+.SecondBookingInfo{
+    background-color:  rgba(230, 133, 7, 0.276);
+    width:180px;
+    height: 220px;/*prev 250*/
+    position: absolute;
+    margin: 120px 110px 110px 440px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px 50px 20px;
+    font-size: 13px;
+    /*font-family: Monaco;*/
+
+
+    
+}
+.SecondBookingInfo ul li {
+    padding: 5px;
+    list-style: none;
+}
+.ThirdBookingInfo{
+    background-color:  rgba(230, 133, 7, 0.276);
+    width:180px;
+    height: 220px;
+    position: absolute;
+    margin: 120px 110px 110px 780px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px 50px 20px;
+    font-size: 13px;
+   /* font-family: Monaco;*/
+
+
+    
+}
+.ThirdBookingInfo ul li {
+    padding: 5px;
+    list-style: none;
+}
+.ThirdBookingInfo .SitterInfo img,.SecondBookingInfo .SitterInfo img{
+    float: left;
+    position: absolute;
+   margin-left: -30px;
+   margin-top: -18px;
+   margin-bottom: 100px;
+}

@@ -1,0 +1,275 @@
+
+body{
+      color: #00085C;
+      background-color: #FEF9F0;
+      font-family: monospace;
+      font-weight: 600;
+      font-size: 30;
+  }
+  
+  .header ul{
+      position: absolute;
+      margin-left: 900px;
+      margin-top: 50px;
+
+  }
+ 
+  .home{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+  }
+  
+  .home ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 1px 30px;
+  }
+  
+  nav ul li a{
+      text-decoration: none;
+      color: #00085C;
+  }
+  .header  li:hover{
+    background-color:#FEE6CA;
+    border-radius: 30px;
+  }
+  
+  .text{
+      margin-top: 100px;
+      margin-left: 130px ;
+      max-width: 600px;
+  }
+  
+  .text p{
+      font-size:3cm;
+  }
+  
+  .sign{
+      padding: 7px 30px;
+      margin-top: 150px;
+      margin-left: 100px;
+      outline: none;   
+  }
+  /*add*/
+  
+  .headerL{
+      padding: 0px;
+  }
+  
+  .lines{
+      width: 100px;
+      height: 45px;
+      position: absolute;
+  }
+  
+  .lines::after{
+      content: '';
+      position: absolute;
+      margin-top: 20px;
+      height: 1.5px;
+      background-color: #00085C;
+      width: 1400px;
+  }
+  
+  #parent_bg{
+      margin-left: 600px;
+  }
+  
+  #babysitter_bg{
+      margin-left: 600px;
+  }
+  
+  /*add*/
+  
+  #parent{
+      background-color: #FF5A30; 
+      border: 0px;
+      color: white;
+      padding: 10px;
+      border-radius: 10PX ;
+      margin-top: 100px;
+      margin-left: 100px;
+      position: absolute;
+  }
+  #babysitter{
+      background-color: #FF5A30;
+      border: 0px;
+      color: white;
+      padding: 10px;
+      border-radius: 10PX ;
+      margin-top: 100px;
+      margin-left: 250px;
+      position: absolute;
+  }
+  
+  #pic{
+      position: absolute;
+      top: 25%;
+      right: 12%;
+  }
+  
+  .parent_body{
+      margin: 0;
+      padding: 0;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      box-sizing: border-box;
+      /*font-family: "Poppins", sans-serif;*/
+  }
+  
+  .side_bar{
+      background: #FEE6CA;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      width: 260px;
+      overflow: hidden;
+      transition: width 0.2s linear;
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+      font-family: monospace;
+      font-weight: 400;
+      font-size: 13px;
+  }
+  
+  .side_bar ul li{
+      list-style: none;
+      margin-left: 0;
+  }
+  
+  .lo{
+      display: flex;
+      transition: all 0.5s ease;
+      margin: 10px 0 0 10px;
+  }
+  
+  .lo span{
+     font-weight: bold;
+
+      padding-left: 15px;
+      font-size: 18px;
+  }
+  
+  .side_bar a{
+      position: relative;
+      color: #00085C;
+      font-size: 14px;
+      display: table;
+      width: 300px;
+      padding: 10px;
+  }
+  
+  .fas{
+      position: relative;
+      width: 70px;
+      height: 40px;
+      top: 14px;
+      font-size: 20px;
+      text-align: left;           
+  }
+  .nav-item{
+      position: relative;
+      top: 12px;
+  }
+  
+  .side_bar a:hover{
+      background: white;
+  }
+  
+  .side_bar nav:hover{
+      width: 280px;
+      transition: all 0.5s ease;
+  }
+  
+  .logout{
+      position: absolute;
+      margin-bottom: 0%;
+  }
+  
+  .footer{
+      background: #FDF0E0;
+      height: auto;
+      width: 100vw;
+      padding-top: 40px;
+      color: #00085C;
+  
+  }
+  
+  .footer-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 60px;
+      margin-left: 600px;
+      position: absolute;
+  }
+  
+  .footer-content h3{
+      margin-top: 150px;
+      margin-left: 20px;
+  }
+  
+  
+  .footer-bottom{
+      margin-top: 300px;
+      margin-left: 500px;
+  }
+  
+  .socials{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      margin-left: 10px;
+      margin-top: 250px;
+  }
+  
+  
+  .socials li{
+      margin: 0 10px;
+  }
+  
+  .socials a{
+      text-decoration: none;
+      color: #00085C;
+  }
+  
+  .socials a:hover i{
+      color: white;
+  }
+  
+  .QA {
+    margin-top: 80px;
+    margin-left: 20px;
+ }
+
+ #headQA{
+    margin-left: 20px;
+ }
+ /* .QAtitle{
+text-align: center;   
+padding-top: 20px;
+
+ } */
+ #headS{
+    margin-left: 20px;
+ }
+ .S{
+    margin-left: 20px;
+ }
+ .about{
+    margin-left:20px;
+ }
+ #headAU{
+    margin-left: 20PX;
+ }
+ .AU{
+    margin-top: 150px;
+    text-align: center;
+ }

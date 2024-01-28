@@ -1,0 +1,322 @@
+<!--EditProfileStylesheet-->
+
+ body {
+    color: #00085C;
+    background-color: #FEF9F0;
+    font-family:monospace,monaco ;
+    /* background: #FEF9F3; 
+      overflow-x: hidden ; */
+}  
+ .container{
+
+    background: #fff;
+    width: 540px; 
+    height: 650px;
+    margin: 0 auto;
+    /* what would happen if we delete auto?  */
+    position: relative;
+    margin-top: 10%;
+    /* i wanna change this numbers 119 */
+    box-shadow: 2px 5px 20px rgba(119, 119, 119, 5);
+}
+  
+ /* .leftBox = sidebar */
+
+ .rightBox{
+    width: 60%;
+    margin-left: 27%;
+    padding-top:5px ;
+ }
+h1 {
+    font-family: monospace;
+    color: #00085C;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+h2 {
+    color: rgb(59, 59, 59);
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 13px;
+    /* font-size: 15px; */
+
+    letter-spacing: 1px;
+    margin-left: 2px;
+    margin-top: 10px;
+} 
+.input , p {
+    border: 0;
+    /* check orange value */
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 80%;
+    font-family: monospace;
+    /* font-size: .7em; */
+    font-size: 13px;
+    padding: 7px 0;
+    color: black;
+    outline: none;
+}
+
+/* span? */
+.button {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 10px;
+
+    /* font-size: 15px; */
+    border: 0;
+    color: #fff;
+        /* check orange value */
+    /* background: #FF5A30; */
+    /* background: #3C99DC ; */
+    background-color: #00085C;
+    padding: 7px 15px;
+    /* change colors */
+    /* box-shadow: 0px 2px 4px 0px rgba(red, green, blue, alpha); */
+    cursor: pointer;
+    margin-top: 15px ;
+    /* position: relative;  */
+
+}
+#deleteButton{
+    background-color: gray;
+}
+
+#deleteButton:hover{
+    /* background-color: red; */
+    background-color: #FF5A30;
+}
+
+ 
+/* .buttonEdit{
+     position: absolute;
+    margin-top: 30px;
+} */
+.bioBox{
+    
+    padding: 10px;
+    border: 1px;
+    margin: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.containerBabysitter{
+
+    background: #fff;
+    width: 700px; 
+    height: 900px;
+    margin: 0 auto;
+    /* what would happen if we delete auto?  */
+    position: relative;
+    margin-top: 10%;
+    /* i wanna change this numbers 119 */
+    box-shadow: 2px 5px 20px rgba(119, 119, 119, 5);
+}
+/* .side_bar{
+    background: #FEE6CA;
+    position: absolute;
+    top: -5%;
+    bottom: -5%;
+    left: 0;
+    height: 110%;
+    width: 15%;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+     additon 
+    float: left;
+
+} */
+.side_bar{
+    background: #FEE6CA;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.side_bar ul li{
+    list-style: none;
+    margin-left: 0;
+}
+
+.lo{
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+}
+
+.lo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.side_bar a{
+    position: relative;
+    color: #00085C;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: left;           
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+}
+
+.side_bar a:hover{
+    background: white;
+}
+
+.side_bar nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+
+.logout{
+    position: absolute;
+    margin-bottom: 0%;
+}
+
+.footer{
+    background: #FDF0E0;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #00085C;
+
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+.footer-content h3{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+
+.footer-bottom{
+    margin-top: 300px;
+    margin-left: 500px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 250px;
+}
+
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #00085C;
+}
+
+.socials a:hover i{
+    color: white;
+}
+.home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.home ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #00085C;
+}
+
+.text{
+    margin-top: 100px;
+    margin-left: 130px ;
+    max-width: 600px;
+}
+
+.text p{
+    font-size:3cm;
+}
+
+.sign{
+    padding: 7px 30px;
+    margin-top: 150px;
+    margin-left: 100px;
+    outline: none;   
+}
+
+#parent{
+    background-color: #FF5A30; 
+    border: 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 10PX ;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+}
+#babysitter{
+    background-color: #FF5A30;
+    border: 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 10PX ;
+    margin-top: 100px;
+    margin-left: 250px;
+    position: absolute;
+}
+
+#pic{
+    position: absolute;
+    top: 25%;
+    right: 12%;
+}
+
+.parent_body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: monospace;
+}

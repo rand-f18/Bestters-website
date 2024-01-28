@@ -1,0 +1,161 @@
+body{
+    background-color:  #FEF9F3;
+    font-family: monospace, monaco;
+  
+}
+.AllBookingInfo{
+    background-color: rgba(231, 64, 3, 0.084);
+    border: none;
+    border-radius: 40px;
+    margin:150px 150px 50px 350px;
+    width:1000px;
+    height: 970px;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    font-weight:500 ;
+
+}
+.AllBookingInfo .titlehead{
+font-size: 32px;
+padding: 10px 0px 0px 40px;
+position: absolute;}
+
+
+.FirstBookingInfo{
+    background-color:  rgba(230, 133, 7, 0.276);
+    width:180px;
+    height: 250px;
+    position: absolute;
+    margin: 120px 110px 110px 90px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px 50px 20px;
+    font-size: 13px;
+   /* font-family: Monaco;*/
+
+
+    
+}
+.FirstBookingInfo ul li {
+    padding: 5px;
+    list-style: none;
+}
+.kidInfo {
+    margin-left: -45px;
+}
+.kidInfo p{
+    margin-left: 70px;
+}
+ form input {
+    position: absolute;
+   margin: -245px 0px 0px -12px;
+   border: none;
+   border-radius: 10px;
+}
+form input:hover{
+    opacity: 0.8;
+}
+
+.FirstBookingInfo img{
+    margin:-10px 0px 0px 70px;
+
+}
+
+    
+/*.kidInfo ul li img{
+    margin:-10px;
+    
+}*/
+
+
+/*.kidInfo{
+border-top: solid 0.4px #b96d10;
+padding-top: 10px;
+width:220px;
+margin-left: -45px; ;
+}
+.kidInfo .profileImg{
+    float: left;
+    position:absolute;
+  
+   margin-top: -3px;
+   margin-right: -20;
+}
+.profileImg:hover{
+    opacity:0.6;
+   
+}*/
+
+/*.reviewButton{
+    font-size: 12.5px;
+    background-color: #FF5A30;
+    height: 35px;
+    width: 130px;
+    margin: 0px 0px 0px 48px;
+    border: none;
+    border-radius: 10px;
+
+}*/
+.SecondBookingInfo{
+    background-color:  rgba(230, 133, 7, 0.134);
+    width:180px;
+    height: 250px;
+    position: absolute;
+    margin: 120px 110px 110px 440px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px 50px 20px;
+    font-size: 13px;
+   /* font-family: Monaco;*/
+    opacity: 1;
+
+
+    
+}
+.SecondBookingInfo ul li {
+    padding: 5px ;
+    list-style: none;
+}
+.SecondBookingInfo .LocationImg{
+    position: absolute;
+    margin: -29px 0px 0px 135px;
+    
+}
+ .SecondBookingInfo .LocationImg:hover{
+  height: 25px;
+  width: 19px;
+
+
+   }
+   .SecondBookingInfo img{
+    margin: -7px 0px 0px 72px;
+    opacity: 0.5;
+
+   }
+
+
+   .canceledOfferesArea{
+    margin:450px 0px 0px 0px;
+   }
+  
+.firstCanceledOffer{
+    background-color:  rgba(230, 133, 7, 0.276);
+    width:180px;
+    height: 250px;
+    position: absolute;
+    margin:130px 110px 110px 90px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px 50px 20px;
+    font-size: 13px;
+   /* font-family: Monaco;*/
+
+
+    
+}
+ .firstCanceledOffer ul li{
+    padding: 5px;
+    list-style: none;
+ }         
+  

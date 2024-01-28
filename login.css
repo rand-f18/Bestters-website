@@ -1,0 +1,37 @@
+
+header{
+    background-color: #fff;
+    padding: 15px;
+box-shadow: 0 0 3px #000;
+}
+
+header li{
+    display: inline;
+    padding-left: 45px;
+}
+header li a{
+  color: #000;
+  text-decoration:none;
+  padding: 13px;
+  transition: .3s ease;
+}
+h2{
+  color: #00085C;
+font-family: monospace;
+}
+header ul #home a {
+background-color: #FEF9F3;
+border-radius: 30px;
+float: right;
+position: relative;
+top: -15px;
+transition: .3s ease;
+}
+header ul #home a:hover{
+ background-color:rgb(20, 12, 68) ;
+    }
+    header li img{
+        width: 89px;
+        float: left;
+        margin-top: -20px;
+    }
