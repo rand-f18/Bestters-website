@@ -1,4 +1,4 @@
-# bestters 
+# Bestters 
 The best site to choose a nanny for your child 
 
 ## What can you do in babySitter?
